@@ -1,0 +1,9 @@
+path: C:\Users\SoyaOHNO\Desktop\LEADINGEDGE\YOLO\YOLO_clock\data\yolo_clock_data_10
+train: images/train
+val: images/val
+kpt_shape: [6, 3]
+flip_idx: [0, 1, 2, 3, 4, 5]
+names:
+  0: hour_hand
+  1: minute_hand
+  2: second_hand
