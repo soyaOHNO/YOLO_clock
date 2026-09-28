@@ -8,8 +8,8 @@ from ultralytics import YOLO
 # ==========================================
 # 設定パス
 # ==========================================
-IMAGE_DIR = r"yolo_clock_data_500\images\val"
-MODEL_PATH = r"best.pt"
+IMAGE_DIR = r"..\..\data\yolo_clock_data_10\images\val"
+MODEL_PATH = r"..\..\models\best.pt"
 
 CLOCK_INFO = {
     0: {"name": "Hour", "max": 12.0, "color": (0, 150, 255)},   # オレンジ

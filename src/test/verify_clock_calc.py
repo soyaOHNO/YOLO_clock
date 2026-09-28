@@ -7,8 +7,8 @@ import numpy as np
 # ==========================================
 # 設定パス（Blenderの出力先に合わせて変更してください）
 # ==========================================
-IMAGE_DIR = r"yolo_clock_data_500\images\val"
-LABEL_DIR = r"yolo_clock_data_500\labels\val"
+IMAGE_DIR = r"..\..\data\yolo_clock_data_10\images\val"
+LABEL_DIR = r"..\..\data\yolo_clock_data_10\labels\val"
 
 # 時計のクラスID定義（0:時針, 1:分針, 2:秒針）
 CLOCK_INFO = {
